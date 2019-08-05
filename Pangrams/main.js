@@ -31,8 +31,7 @@ function pangrams(s) {
     s = s.split('');    // create all char array.
     s = [...new Set(s)]; // remove duplicate character from the array.
 
-    if (s.length === 26) return "pangram";
-    else return "not pangram"
+    return (s.length === 26 ? "pangram" : "not pangram");
 }
 
 function main() {
