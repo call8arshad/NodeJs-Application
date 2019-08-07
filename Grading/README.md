@@ -1,3 +1,10 @@
+# How to run and About the Question:
+
+## How to Run
+```
+OUTPUT_PATH=path/outputFile node main.js
+```
+
 ### HackerLand University has the following grading policy:
 ```
 * Every student receives a grade in the inclusive range from 0 to 100.
