@@ -1,0 +1,16 @@
+{
+  "name": "qrcodegenerator",
+  "version": "1.0.0",
+  "description": "``` This Application will generate a QRCode for the Given String/JSON payload ```",
+  "main": "index.js",
+  "scripts": {
+    "testUrl": "OUTPUT_FORMAT=url INPUT='this is a test' node index.js",
+    "testString": "OUTPUT_FORMAT=string INPUT='this is a test' node index.js",
+    "testFile": "FILE_WITH_PATH=/tmp/qrTest.png OUTPUT_FORMAT=file INPUT='this is a test' node index.js"
+  },
+  "author": "Arshad Khan",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  }
+}
